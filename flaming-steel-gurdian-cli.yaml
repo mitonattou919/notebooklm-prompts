@@ -1,0 +1,55 @@
+design_concept:
+  name: "Flaming Steel Guardian CLI"
+  version: "1.0"
+  description: "Dark fantasy gaming UI mixed with industrial metallic elements."
+
+global_styles:
+  background_color: "#0D0D0D"
+  text_color: "#FFFFFF"
+  accent_color: "#FF4500"
+  secondary_accent: "#B0C4DE"
+  font_family: "Impact-style Heavy Sans-serif"
+
+layout_rules:
+  header:
+    alignment: "center"
+    title_effect: "Chrome Gradient with Outer Glow"
+    decoration: "Fire and Smoke borders"
+  body:
+    spacing: "compact"
+    structure: "Grid-based Dashboard"
+    container_style: "Dark Semi-transparent Glass"
+
+diagram_specs:
+  style: "Heavy Metalic & 3D Render"
+  container:
+    shape: "Heraldic Shield (盾形)"
+    border_weight: "thick"
+    border_color: "#808080"
+    background: "Radial Gradient (Black to Deep Red)"
+  connection:
+    type: "Magical Flaming Sword"
+    glow_effect: true
+  icon_set:
+    - category: "human_ai_collaboration"
+      symbol: "Knight Fox & Robot Duo"
+    - category: "logic_engine"
+      symbol: "Gear inside Shield"
+    - category: "data_structure"
+      symbol: "Structured JSON Brain"
+    - category: "integration"
+      symbol: "Floating Fox Masks (Kitsune)"
+
+component_styles:
+  table:
+    header_bg: "#300000"
+    border_color: "#FF0000"
+    cell_padding: "dense"
+  code_block:
+    theme: "Terminal Dark"
+    prefix: ">_"
+    accent_symbol: "Plus sign (+)"
+
+accents:
+  corners: "Embossed Skulls or Rivets"
+  bottom_edge: "Raging Fire Effect"

@@ -1,0 +1,44 @@
+design_concept:
+  name: "Gothic Archive Chronicles"
+  version: "1.0"
+  description: "A blend of Victorian gothic aesthetics and modern data visualization."
+
+global_styles:
+  background_color: "#1A0B1E"
+  text_color: "#FFFFFF"
+  accent_color: "#800000"
+  secondary_accent: "#C0A080"
+  font_family: "Serif/Mincho"
+
+layout_rules:
+  header:
+    alignment: "center"
+    decoration: "ornate-vine-border"
+    title_style: "Bold Serif"
+  content_box:
+    background: "#F5E6D3"
+    text_color: "#2A1A1A"
+    border_style: "Double-line Ornate Frame"
+    corner_radius: "2px"
+
+diagram_specs:
+  style: "Symbolic Illustration"
+  icon_set:
+    - metric: "Success Rate"
+      symbol: "Antique Hourglass"
+    - metric: "Comparison"
+      symbol: "Justice Scales"
+    - metric: "Cost/Resource"
+      symbol: "Treasure Chest / Gears"
+    - metric: "Process/Path"
+      symbol: "Thorn-lined Map"
+  table_style:
+    header_bg: "#4A1A1A"
+    cell_border: "#C0A080"
+
+accents:
+  decorations:
+    - "Dark roses in corners"
+    - "Thorny vine dividers"
+    - "Gears and clock motifs"
+  character_presence: "Chibi-style Gothic Lolita as Narrator"

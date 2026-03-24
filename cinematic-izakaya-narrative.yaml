@@ -1,0 +1,42 @@
+design_concept:
+  name: "Cinematic Izakaya Narrative"
+  version: "1.0"
+  description: "Traditional Japanese pub atmosphere combined with high-contrast cinematic realism."
+
+global_styles:
+  background_base: "#1A1A1A"
+  primary_accent: "#E63946"
+  secondary_accent: "#FFB703"
+  base_text_color: "#F1FAEE"
+  font_family: "UD Digital Kyokasho / Hand-drawn Brush"
+
+layout_rules:
+  header:
+    alignment: "left-top"
+    style: "Subtle Japanese Vertical Text"
+  body:
+    spacing: "organic"
+    visual_weight: "center-right"
+  speech_bubble:
+    style: "Hand-drawn Organic"
+    border_weight: "medium"
+    fill_color: "#FFFFFF"
+
+diagram_specs:
+  style: "Rough Sketch Outline"
+  container:
+    shape: "Irregular Circle / Cloud"
+    border_style: "Ink-stroke"
+  connection:
+    type: "Dashed Hand-drawn Line"
+  icon_set:
+    - element: "Human Insight"
+      symbol: "Stylized Silhouette with a hat"
+    - element: "Social Atmosphere"
+      symbol: "Lantern Icon with glow effect"
+    - element: "Nuance/Ambiguity"
+      symbol: "Wispy Smoke / Steam effect"
+
+accents:
+  footer: "Wood-grain texture bar"
+  overlay: "Soft orange glow in top-right corners"

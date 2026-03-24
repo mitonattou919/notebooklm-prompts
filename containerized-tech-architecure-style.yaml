@@ -1,0 +1,46 @@
+design_concept:
+  name: "Containerized Tech-Architecture Style"
+  version: "1.0"
+  description: "An information-rich, organized technical style for Docker and system architecture diagrams."
+
+global_styles:
+  background_color: "#FFFFFF"
+  text_color: "#333333"
+  primary_accent: "#2D88FF"
+  secondary_accent: "#D4A017"
+  tertiary_accent: "#E67E22"
+  font_family: "Inter, Roboto, sans-serif"
+
+layout_rules:
+  structure: "side-by-side-containers"
+  container_style:
+    corner_radius: "12px"
+    border_style: "1px solid #E0E0E0"
+    background_fill:
+      left_side: "#F5F5F5"
+      right_side: "#EBF5FF"
+  spacing: "compact-but-organized"
+
+diagram_specs:
+  node_style: "High-fidelity UI Icons"
+  connection:
+    data_flow: "Bold Solid Arrow"
+    persistence: "Thick Dashed Arrow"
+  component_mapping:
+    - role: "client_user"
+      style: "Simple Profile Icon + Browser UI Mockup"
+    - role: "security_auth"
+      color: "#FFD700"
+      symbol: "Key / Lock"
+    - role: "file_system"
+      color: "#F39C12"
+      symbol: "Folder Illustration"
+    - role: "environment_tags"
+      style: "Pill-shaped badges with tech logos (Python, Node.js)"
+
+accents:
+  header_label: "Uppercase Bold Sans-serif"
+  code_snippet:
+    font_family: "Monospace"
+    background: "#212121"
+    text_color: "#FFFFFF"

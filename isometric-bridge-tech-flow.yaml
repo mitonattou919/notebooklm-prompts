@@ -1,0 +1,57 @@
+design_concept:
+  name: "Isometric Bridge Tech-Flow"
+  version: "1.0"
+  visual_metaphor: "The Bridge (Server as a translator between two worlds)"
+
+global_styles:
+  background: "Linear-gradient(to bottom, #F8FAFC, #FFFFFF)"
+  primary_text: "#1E293B"
+  font_family: "Inter, system-ui, sans-serif"
+  color_palette:
+    ai_client: "#2563EB"
+    mcp_bridge: "#0F172A"
+    external_tool: "#EA580C"
+    documentation: "#16A34A"
+
+layout_rules:
+  structure: "Centralized Hero with Radial Paths"
+  header:
+    position: "top-center"
+    style: "Bold Sans-serif"
+    color: "#0F172A"
+  spacing: "Dynamic (High density but organized by color paths)"
+
+diagram_specs:
+  perspective: "Isometric 3D"
+  style: "Glossy Claymorphism / 3D Illustration"
+  nodes:
+    - id: "source"
+      label: "AI Client (The Brain)"
+      shape: "3D Brain Icon on Circular Pedestal"
+      color_theme: "Blue"
+    - id: "core"
+      label: "MCP Server (The Bridge)"
+      shape: "High-tech Digital Bridge with Python Logo"
+      color_theme: "Dark Navy"
+    - id: "target"
+      label: "External Tool (The Fortress)"
+      shape: "3D Isometric Database/Castle"
+      color_theme: "Orange"
+  connectors:
+    style: "Thick Rounded Paths (Circuit-board style)"
+    animation_flow: "Left to Right"
+
+component_styles:
+  info_card:
+    background: "rgba(255, 255, 255, 0.9)"
+    border_radius: "12px"
+    box_shadow: "0 4px 6px -1px rgb(0 0 0 / 0.1)"
+    title_weight: "Extrabold"
+  data_table:
+    header_bg: "#DCFCE7
+    border_color: "#E2E8F0"
+    row_striping: false
+
+accents:
+  - "Small floating UI code snippets (JSON, Docstrings)"
+  - "Connection nodes with glowing green dots"
