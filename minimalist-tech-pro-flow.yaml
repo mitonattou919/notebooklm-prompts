@@ -1,40 +1,48 @@
 design_concept:
   name: "Minimalist Tech-Pro Flow"
-  version: "1.0"
+  version: "1.1"
+  description: "Clear hierarchy, logic-first layout with a touch of hand-drawn personality."
 
 global_styles:
   background_color: "#FFFFFF"
   text_color: "#333333"
-  accent_color: "#000000"
-  font_family: "Modern Sans-serif"
+  font_family: "Zen Kaku Gothic New, Noto Sans JP, sans-serif"
+  border_radius: "8px"
 
 layout_rules:
   header:
     alignment: "top-left"
-    accent_symbol: "vertical-black-bar"
-    title_style: "Bold"
+    accent_symbol: "thick-vertical-bar"
+    accent_color: "#000000"
+    font_weight: "Bold"
+    font_size: "Large"
   body:
-    spacing: "wide"
+    spacing: "generous"
     alignment: "left"
+    list_style: "bullet"
 
 diagram_specs:
-  style: "Flat Outline Icon"
+  style: "Flat Outline Linear"
   container:
     shape: "Rounded Rectangle"
-    border_weight: "thin"
+    border_weight: "1px"
     border_color: "#333333"
+    fill_color: "transparent"
   connection:
     type: "Fine-line Arrow"
-  icon_set:
-    - step: "input"
-      label: "User Input"
-      symbol: "Outline Human Figure"
-    - step: "process"
-      label: "Merge"
-      symbol: "Fitting Puzzle Pieces"
-    - step: "core"
-      label: "LLM"
-      symbol: "Text 'AI' inside box"
+    color: "#888888"
+    active_flow_color: "#7FB3D5"
+  icon_mapping:
+    user: "Outline Human Figure"
+    database: "Stacked Cylinder Icons"
+    merge_process: "Fitting Puzzle Pieces"
+    llm_core: "Box with 'AI' text"
+    result: "Checkmark in circle"
+  annotations:
+    style: "Rounded Speech Bubble"
+    font_size: "Small"
+    background: "#EFEFEF"
 
 accents:
-  top_right: "Hand-drawn 'namalab' symbol"
+  top_right_overlay: "Hand-drawn 'xxx' icon"
+  citation_style: "Gray text, small, bracketed [Author+ 202X]"

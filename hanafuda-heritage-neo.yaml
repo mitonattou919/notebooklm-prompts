@@ -1,0 +1,40 @@
+design_concept:
+  name: "Hanafuda Heritage Neo"
+  version: "1.0"
+  description: "A modern business adaptation of Hanafuda aesthetics, focusing on high-contrast symbolism and bold graphic layouts."
+
+global_styles:
+  background_color: "#FFFFFF" 
+  text_color: "#1A1A1A"       
+  accent_color: "#D72638"     
+  secondary_color: "#5C3D99"  
+  font_family: "UD Shin Go / Noto Sans JP Bold"
+
+layout_rules:
+  header:
+    alignment: "left"
+    style: "Tanzaku-Label"
+    accent_symbol: "thick-black-border"
+  body:
+    spacing: "compact"
+    alignment: "center-grid"
+    border_style: "2pt-solid-black"
+
+diagram_specs:
+  style: "Ukiyo-e Flat Vector"
+  container:
+    shape: "Sharp Rectangle"
+    border_weight: "bold"
+    border_color: "#000000"
+  connection:
+    type: "Organic Flow"
+  icon_set:
+    - category: "Status"
+      symbol: "Full Moon (Bright Red)"
+    - category: "Notice"
+      symbol: "Vertical Red Ribbon"
+    - category: "Growth"
+      symbol: "Pine or Bamboo motif"
+
+accents:
+  corner_decoration: "Stylized Cloud or Wave"

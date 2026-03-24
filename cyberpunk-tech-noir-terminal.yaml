@@ -1,0 +1,84 @@
+design_concept:
+  name: "Cyberpunk Tech-Noir Terminal"
+  version: "1.0"
+  description: >
+    A design that reproduces a dark and gritty cyberpunk world.
+    The layout features pale blue neon text glowing in the midnight city, accented by a motorcycle silhouette.
+
+global_styles:
+  background_color: "#0A1218"
+  main_accent_color: "#00E5FF"
+  
+  text_colors:
+    header: "#00E5FF" # Glowing Electric Cyan
+    sub_header: "#B2EBF2" # Less bold Light Cyan
+    body_text: "#E0F7FA" # Very pale cyan for CLI text
+    code_block_background: "#212121" # Dark Grey for CLI widgets
+
+  font_families:
+    header: "Orbitron, Roboto Condensed Bold, sans-serif"
+    monospaced: "Inconsolata, Source Code Pro, monospace"
+
+layout_rules:
+  header:
+    alignment: "top-center"
+    title_style: "Bold, Glowing, Large"
+    subtitle_style: "Luminous, Smaller, Centered below title"
+  body:
+    spacing: "dynamic"
+    primary_content: "left"
+    secondary_content: "right"
+  
+  elements_and_accents:
+    widgets:
+      alignment: "right"
+      style: "Monospaced text on Dark Grey background, floating"
+    skyline:
+      position: "bottom-right"
+      style: "Simplified dark skyline structure with integrated vertical CLI text blocks"
+
+diagram_specs:
+  style: "Digital illustration, high-contrast, heavily shadowed, stylized texture"
+  
+  subject_rendering:
+    silhouette: "Heavily shadowed with key cyan highlights/edges"
+    detail: "Defined structure, futuristic design"
+
+  accents_rendering:
+    lightning: "Illustrative, electric cyan arcs in background"
+    clouds: "Dark, textured, stormy appearance"
+
+accents:
+  top_right_widget:
+    text:
+      - "$ code gemini"
+      - "[INFO] CLI Activated."
+    graphics: "Electric arc/lightning"
+
+  middle_right_label:
+    text: "[INFO] CLI Activated."
+
+  bottom_right_skyline:
+    text:
+      - "$ gemini --version"
+      - "$ c:\\gemini\\projects"
+      - "$ gemini --version"
+      - "$ c:\\projects"
+      - "$ gemini generate"
+      - "$ gemini generate-keys"
+      - "$ gemini create"
+      - "$ [arguments...]"
+      - "$ config_id"
+      - "$ gemini start"
+      - "$ c:\\users\\project\\"
+      - "$ config_id: [1]"
+      - "$ gemini start"
+      - "$ config_id: [2]"
+      - "$ gemini Neptune"
+      - "$ gemini generate"
+      - "$ gemini generate-keys"
+      - "$ gemini create"
+      - "$ [arguments...]"
+      - "$ config_id"
+      - "$ gemini Neptune"
+    icons: "Small stylized diamond-shaped icon at bottom-right"

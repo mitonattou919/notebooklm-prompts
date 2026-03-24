@@ -1,0 +1,47 @@
+design_concept:
+  name: "Cyber-Cinematic Operations"
+  version: "1.0"
+  description: "Futuristic SRE dashboard style with high-contrast glow effects and holographic overlays."
+
+global_styles:
+  background_color: "#050A0F"
+  text_color: "#E0E6ED"
+  accent_colors:
+    primary_glow: "#FFD700"
+    system_cyan: "#00F2FF"
+    status_green: "#39FF14"
+  font_family: "Inter, Montserrat, sans-serif"
+
+layout_rules:
+  header:
+    alignment: "center"
+    title_case: "uppercase"
+    letter_spacing: "0.2em"
+    style: "Glow-Text"
+  body:
+    spacing: "compact-but-organized"
+    content_alignment: "left"
+    background_overlay: "subtle-grid-pattern"
+
+diagram_specs:
+  style: "Holographic / Glassmorphism"
+  container:
+    shape: "Rounded Rectangle"
+    border_weight: "1px"
+    border_color: "rgba(0, 242, 255, 0.3)"
+    background: "rgba(255, 255, 255, 0.05)"
+  connection:
+    type: "Glow-Line"
+    weight: "thin"
+    animation_hint: "flowing-data-particles"
+  icon_set:
+    - category: "Logic / Workflow"
+      style: "Outline with inner glow"
+      example: "Azure-style Logic Apps icon"
+    - category: "Security"
+      style: "Sharp Geometric"
+      example: "X-shaped secure node"
+
+accents:
+  footer_status: "Blinking LED-style indicator dots"
+  data_visualization: "Thin-line line charts with area gradient fill"
