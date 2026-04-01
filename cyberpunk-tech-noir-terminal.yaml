@@ -49,36 +49,8 @@ diagram_specs:
     clouds: "Dark, textured, stormy appearance"
 
 accents:
-  top_right_widget:
+  bottom_right_skyline:
     text:
-      - "$ code gemini"
       - "[INFO] CLI Activated."
     graphics: "Electric arc/lightning"
 
-  middle_right_label:
-    text: "[INFO] CLI Activated."
-
-  bottom_right_skyline:
-    text:
-      - "$ gemini --version"
-      - "$ c:\\gemini\\projects"
-      - "$ gemini --version"
-      - "$ c:\\projects"
-      - "$ gemini generate"
-      - "$ gemini generate-keys"
-      - "$ gemini create"
-      - "$ [arguments...]"
-      - "$ config_id"
-      - "$ gemini start"
-      - "$ c:\\users\\project\\"
-      - "$ config_id: [1]"
-      - "$ gemini start"
-      - "$ config_id: [2]"
-      - "$ gemini Neptune"
-      - "$ gemini generate"
-      - "$ gemini generate-keys"
-      - "$ gemini create"
-      - "$ [arguments...]"
-      - "$ config_id"
-      - "$ gemini Neptune"
-    icons: "Small stylized diamond-shaped icon at bottom-right"
